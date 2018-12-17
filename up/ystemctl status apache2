@@ -1,0 +1,12 @@
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2018-12-13 11:42:23 PST; 1 day 10h ago
+     Docs: man:nginx(8)
+ Main PID: 988 (code=exited, status=0/SUCCESS)
+
+Nov 25 18:20:39 leo-HP-Pavilion-dv6-Notebook-PC systemd[1]: Starting A high performance web server and a reverse proxy server...
+Nov 25 18:20:42 leo-HP-Pavilion-dv6-Notebook-PC nginx[855]: nginx: [warn] "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/ssl/certs/nginx-selfsigned.crt"
+Nov 25 18:20:42 leo-HP-Pavilion-dv6-Notebook-PC nginx[987]: nginx: [warn] "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/ssl/certs/nginx-selfsigned.crt"
+Nov 25 18:20:42 leo-HP-Pavilion-dv6-Notebook-PC systemd[1]: Started A high performance web server and a reverse proxy server.
+Dec 13 11:42:21 leo-HP-Pavilion-dv6-Notebook-PC systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Dec 13 11:42:23 leo-HP-Pavilion-dv6-Notebook-PC systemd[1]: Stopped A high performance web server and a reverse proxy server.
